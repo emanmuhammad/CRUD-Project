@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <div class="container py-5">
+        <h1>Bookmarker</h1>
+        <hr>
+        
+        <h2 class="text-center my-5">Bookmark your favourite sites</h2>
+        <div class="form-group">
+            <p class="text-center">Site Name</p>
+            <input id="bookName" class="form-control" placeholder="Site Name">
+
+        </div>
+        <div class="form-group">
+            <p class="text-center">Site URL</p>
+            <input id="webUrl" class="form-control" placeholder=" Website URL">
+
+        </div>
+        <div class="center-btn">
+        <button disabled id="submitBtn" class="btn btn-info  my-5 ">Submit</button>
+       </div>
+        <div class="clearfix"></div>
+        <div class="form-group">
+            <input onkeyup="search(this.value)" class="search mb-5 form-control" placeholder="Search ny name">
+        </div>
+    
+        
+
+        <table class="w-50">
+            <thead>
+                <!--
+                <th>Name</th>
+                <th>Url</th> -->
+                <th></th>
+                <th></th>
+                <th></th>
+            </thead>
+            <tbody id="tableBody">
+
+            </tbody>
+
+        </table>
+        <hr>
+
+
+    </div>
+
+
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
